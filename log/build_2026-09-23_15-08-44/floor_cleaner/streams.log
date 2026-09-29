@@ -1,0 +1,32 @@
+[0.424s] Invoking command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build --no-deps symlink_data
+[0.540s] running develop
+[0.601s] running egg_info
+[0.601s] creating floor_cleaner.egg-info
+[0.602s] writing floor_cleaner.egg-info/PKG-INFO
+[0.602s] writing dependency_links to floor_cleaner.egg-info/dependency_links.txt
+[0.602s] writing entry points to floor_cleaner.egg-info/entry_points.txt
+[0.602s] writing requirements to floor_cleaner.egg-info/requires.txt
+[0.602s] writing top-level names to floor_cleaner.egg-info/top_level.txt
+[0.602s] writing manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+[0.603s] reading manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+[0.603s] writing manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+[0.604s] running build_ext
+[0.604s] Creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor-cleaner.egg-link (link to .)
+[0.604s] Installing fake_lidar script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+[0.604s] Installing motor_bridge script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+[0.605s] 
+[0.605s] Installed /home/debarghya/floor_cleaner_ws/build/floor_cleaner
+[0.605s] running symlink_data
+[0.605s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/ament_index
+[0.605s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index
+[0.605s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/packages
+[0.605s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/resource/floor_cleaner -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/packages
+[0.605s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/package.xml -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner
+[0.605s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+[0.605s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/launch/robot.launch.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+[0.606s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/launch/gazebo.launch.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+[0.606s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf
+[0.606s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/urdf/floor_cleaner.urdf -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf
+[0.606s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds
+[0.606s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/worlds/floor.world -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds
+[0.619s] Invoked command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner' returned '0': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build --no-deps symlink_data

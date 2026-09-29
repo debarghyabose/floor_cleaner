@@ -1,0 +1,44 @@
+[0.613s] Invoking command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build
+[0.780s] running develop
+[0.868s] Removing /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor-cleaner.egg-link (link to .)
+[0.891s] Invoked command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner' returned '0': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build
+[0.892s] Invoking command in '/home/debarghya/floor_cleaner_ws/src/floor_cleaner': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/floor_cleaner build --build-base /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build install --record /home/debarghya/floor_cleaner_ws/build/floor_cleaner/install.log --install-scripts $base/lib/floor_cleaner --single-version-externally-managed install_data --force
+[1.051s] running egg_info
+[1.051s] writing ../../build/floor_cleaner/floor_cleaner.egg-info/PKG-INFO
+[1.051s] writing dependency_links to ../../build/floor_cleaner/floor_cleaner.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../../build/floor_cleaner/floor_cleaner.egg-info/entry_points.txt
+[1.052s] writing requirements to ../../build/floor_cleaner/floor_cleaner.egg-info/requires.txt
+[1.052s] writing top-level names to ../../build/floor_cleaner/floor_cleaner.egg-info/top_level.txt
+[1.053s] reading manifest file '../../build/floor_cleaner/floor_cleaner.egg-info/SOURCES.txt'
+[1.054s] writing manifest file '../../build/floor_cleaner/floor_cleaner.egg-info/SOURCES.txt'
+[1.054s] running build
+[1.054s] running build_py
+[1.054s] creating /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build
+[1.054s] creating /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib
+[1.054s] creating /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+[1.055s] copying floor_cleaner/motor_bridge.py -> /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+[1.055s] copying floor_cleaner/__init__.py -> /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+[1.055s] copying floor_cleaner/fake_lidar.py -> /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+[1.056s] running install
+[1.056s] running install_lib
+[1.056s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+[1.056s] copying /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner/motor_bridge.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+[1.057s] copying /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner/__init__.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+[1.057s] copying /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner/fake_lidar.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+[1.057s] byte-compiling /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner/motor_bridge.py to motor_bridge.cpython-310.pyc
+[1.057s] byte-compiling /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner/__init__.py to __init__.cpython-310.pyc
+[1.058s] byte-compiling /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner/fake_lidar.py to fake_lidar.cpython-310.pyc
+[1.058s] running install_data
+[1.058s] copying resource/floor_cleaner -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/packages
+[1.058s] copying package.xml -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner
+[1.058s] copying launch/robot.launch.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+[1.058s] copying launch/gazebo.launch.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+[1.059s] copying urdf/floor_cleaner.urdf -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf
+[1.059s] copying worlds/floor.world -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds
+[1.059s] running install_egg_info
+[1.061s] Copying ../../build/floor_cleaner/floor_cleaner.egg-info to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner-0.0.0-py3.10.egg-info
+[1.062s] running install_scripts
+[1.079s] Installing fake_lidar script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+[1.079s] Installing motor_bridge script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+[1.080s] writing list of installed files to '/home/debarghya/floor_cleaner_ws/build/floor_cleaner/install.log'
+[1.099s] Invoked command in '/home/debarghya/floor_cleaner_ws/src/floor_cleaner' returned '0': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/floor_cleaner build --build-base /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build install --record /home/debarghya/floor_cleaner_ws/build/floor_cleaner/install.log --install-scripts $base/lib/floor_cleaner --single-version-externally-managed install_data --force

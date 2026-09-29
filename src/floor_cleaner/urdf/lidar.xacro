@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!-- 2D LiDAR: physical link + (simulation only) Gazebo ray sensor.
+     On the real robot only the link/joint are used; the real LiDAR
+     driver publishes /scan in the same "laser" frame. -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- LiDAR puck size (similar to an RPLIDAR A1/A2) -->
+  <xacro:property name="lidar_radius" value="0.04"/>
+  <xacro:property name="lidar_height" value="0.04"/>
+  <xacro:property name="lidar_mass"   value="0.17"/>
+
+  <!-- Mounted on the centre of the chassis roof.
+       Height of the laser frame above the floor: 0.02 + 0.15 + 0.02 = 0.19 m -->
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser"/>
+    <origin xyz="0 0 ${ground_clearance + chassis_height + lidar_height/2}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="laser">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${lidar_radius}" length="${lidar_height}"/>
+      </geometry>
+      <material name="cleaner_black"/>
+    </visual>
+    <!-- small orange "front" marker so you can see the LiDAR orientation -->
+    <visual>
+      <origin xyz="${lidar_radius - 0.01} 0 ${lidar_height/2}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.015 0.015 0.004"/>
+      </geometry>
+      <material name="cleaner_orange"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${lidar_radius}" length="${lidar_height}"/>
+      </geometry>
+    </collision>
+    <xacro:inertial_cylinder mass="${lidar_mass}" length="${lidar_height}" radius="${lidar_radius}">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:inertial_cylinder>
+  </link>
+
+  <xacro:if value="$(arg use_sim)">
+    <gazebo reference="laser">
+      <material>Gazebo/FlatBlack</material>
+      <sensor name="lidar_sensor" type="ray">
+        <pose>0 0 0 0 0 0</pose>
+        <always_on>true</always_on>
+        <!-- set to true to draw the blue laser rays inside Gazebo -->
+        <visualize>false</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1.0</resolution>
+              <min_angle>-3.14159</min_angle>
+              <max_angle>3.14159</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <!-- min > lidar_radius so the LiDAR never sees its own body -->
+            <min>0.12</min>
+            <max>12.0</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </ray>
+        <plugin name="lidar_ros_plugin" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <!-- publish on /scan -->
+            <remapping>~/out:=scan</remapping>
+          </ros>
+          <output_type>sensor_msgs/LaserScan</output_type>
+          <frame_name>laser</frame_name>
+        </plugin>
+      </sensor>
+    </gazebo>
+  </xacro:if>
+
+</robot>

@@ -1,0 +1,1 @@
+xacro;robot_state_publisher;gazebo_ros;gazebo_plugins;slam_toolbox;nav2_map_server;nav2_amcl;nav2_controller;nav2_planner;nav2_navfn_planner;nav2_behaviors;nav2_bt_navigator;nav2_lifecycle_manager;nav2_costmap_2d;dwb_core;dwb_critics;nav2_msgs;rviz2;nav2_rviz_plugins;rclpy;geometry_msgs;nav_msgs;action_msgs;teleop_twist_keyboard;tf2_ros;tf2_tools

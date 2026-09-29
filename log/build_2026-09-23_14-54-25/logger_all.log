@@ -1,0 +1,135 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c48b3b17a00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c48b3cad090>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c48b3cad090>>)
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.354s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/debarghya/floor_cleaner_ws'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_cleaner) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/floor_cleaner' with type 'ros.ament_python' and name 'floor_cleaner'
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/debarghya/floor_cleaner_ws/install
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'floor_cleaner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'floor_cleaner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/debarghya/floor_cleaner_ws/build/floor_cleaner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/debarghya/floor_cleaner_ws/install/floor_cleaner', 'merge_install': False, 'path': '/home/debarghya/floor_cleaner_ws/src/floor_cleaner', 'symlink_install': True, 'test_result_base': None}
+[0.466s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.467s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/debarghya/floor_cleaner_ws/src/floor_cleaner' with build type 'ament_python'
+[0.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('floor_cleaner', 'ament_prefix_path')
+[0.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/hook/ament_prefix_path.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/hook/ament_prefix_path.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/hook/ament_prefix_path.sh'
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/debarghya/floor_cleaner_ws/src/floor_cleaner'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.884s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, rotate, clean, install, build_py, alias, update_catalog, saveopts, upload, bdist, build_scripts, bdist_dumb, compile_catalog, upload_docs, install_lib, extract_messages, build_clib, install_data, dist_info, build, test, build_ext, install_egg_info, bdist_egg, symlink_data, install_headers, egg_info, register, install_scripts, easy_install, setopt, develop, init_catalog, check, sdist
+[1.030s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --help, --no-find-links, --install-dir, --script-dir, --always-copy, --find-links, --install-layout, --user, --local-snapshots-ok, --record, --site-dirs, --prefix, --upgrade, --no-user-cfg, --zip-ok, --uninstall, --index-url, --editable, --exclude-scripts, --always-unzip, --optimize, --no-deps, --force-installation-into-system-dir, --egg-path, --dry-run, --allow-hosts, --quiet, --version, --multi-version, --verbose, --build-directory
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build --no-deps symlink_data
+[1.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('floor_cleaner', 'pythonpath_develop')
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/debarghya/floor_cleaner_ws/build/floor_cleaner/share/floor_cleaner/hook/pythonpath_develop.ps1'
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner' returned '0': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build --no-deps symlink_data
+[1.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/debarghya/floor_cleaner_ws/build/floor_cleaner/share/floor_cleaner/hook/pythonpath_develop.dsv'
+[1.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/debarghya/floor_cleaner_ws/build/floor_cleaner/share/floor_cleaner/hook/pythonpath_develop.sh'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner' for CMake module files
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner' for CMake config files
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/bin'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/pkgconfig/floor_cleaner.pc'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages'
+[1.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('floor_cleaner', 'pythonpath')
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/hook/pythonpath.ps1'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/hook/pythonpath.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/hook/pythonpath.sh'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(floor_cleaner)
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.bash'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.zsh'
+[1.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/colcon-core/packages/floor_cleaner)
+[1.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.268s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.285s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.286s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.286s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/debarghya/floor_cleaner_ws/install/local_setup.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/debarghya/floor_cleaner_ws/install/_local_setup_util_ps1.py'
+[1.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/debarghya/floor_cleaner_ws/install/setup.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/debarghya/floor_cleaner_ws/install/local_setup.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/debarghya/floor_cleaner_ws/install/_local_setup_util_sh.py'
+[1.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/debarghya/floor_cleaner_ws/install/setup.sh'
+[1.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/debarghya/floor_cleaner_ws/install/local_setup.bash'
+[1.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/debarghya/floor_cleaner_ws/install/setup.bash'
+[1.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/debarghya/floor_cleaner_ws/install/local_setup.zsh'
+[1.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/debarghya/floor_cleaner_ws/install/setup.zsh'

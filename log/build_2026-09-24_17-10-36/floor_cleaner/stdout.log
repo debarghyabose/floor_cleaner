@@ -1,0 +1,40 @@
+running develop
+Removing /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor-cleaner.egg-link (link to .)
+running egg_info
+writing ../../build/floor_cleaner/floor_cleaner.egg-info/PKG-INFO
+writing dependency_links to ../../build/floor_cleaner/floor_cleaner.egg-info/dependency_links.txt
+writing entry points to ../../build/floor_cleaner/floor_cleaner.egg-info/entry_points.txt
+writing requirements to ../../build/floor_cleaner/floor_cleaner.egg-info/requires.txt
+writing top-level names to ../../build/floor_cleaner/floor_cleaner.egg-info/top_level.txt
+reading manifest file '../../build/floor_cleaner/floor_cleaner.egg-info/SOURCES.txt'
+writing manifest file '../../build/floor_cleaner/floor_cleaner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build
+creating /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib
+creating /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+copying floor_cleaner/motor_bridge.py -> /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+copying floor_cleaner/__init__.py -> /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+copying floor_cleaner/fake_lidar.py -> /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner
+running install
+running install_lib
+creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+copying /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner/motor_bridge.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+copying /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner/__init__.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+copying /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build/lib/floor_cleaner/fake_lidar.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner
+byte-compiling /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner/motor_bridge.py to motor_bridge.cpython-310.pyc
+byte-compiling /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner/fake_lidar.py to fake_lidar.cpython-310.pyc
+running install_data
+copying resource/floor_cleaner -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/packages
+copying package.xml -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner
+copying launch/robot.launch.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+copying launch/gazebo.launch.py -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch
+copying urdf/floor_cleaner.urdf -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf
+copying worlds/floor.world -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds
+running install_egg_info
+Copying ../../build/floor_cleaner/floor_cleaner.egg-info to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor_cleaner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fake_lidar script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+Installing motor_bridge script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+writing list of installed files to '/home/debarghya/floor_cleaner_ws/build/floor_cleaner/install.log'

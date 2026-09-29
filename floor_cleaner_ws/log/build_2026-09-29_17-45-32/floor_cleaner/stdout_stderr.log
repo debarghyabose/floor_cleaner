@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/build/floor_cleaner
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch/cleaning.launch.py
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch/full_system.launch.py
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch/navigation.launch.py
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch/simulation.launch.py
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/launch/slam.launch.py
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf/floor_cleaner.urdf.xacro
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf/gazebo_control.xacro
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf/inertial_macros.xacro
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf/lidar.xacro
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/urdf/materials.xacro
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds/floor_cleaner_world.world
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/config/cleaning_pattern.yaml
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/config/nav2_params.yaml
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/config/slam_toolbox.yaml
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/rviz/floor_cleaner.rviz
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/maps/README.md
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner/cleaning_pattern_node.py
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/package_run_dependencies/floor_cleaner
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/parent_prefix_path/floor_cleaner
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/environment/ament_prefix_path.sh
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/environment/path.sh
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/environment/path.dsv
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/local_setup.bash
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/local_setup.sh
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/local_setup.zsh
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/local_setup.dsv
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.dsv
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/ament_index/resource_index/packages/floor_cleaner
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/cmake/floor_cleanerConfig.cmake
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/cmake/floor_cleanerConfig-version.cmake
+-- Symlinking: /home/debarghya/floor_cleaner_ws/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/package.xml

@@ -1,0 +1,20 @@
+[0.439s] Invoking command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build --no-deps symlink_data
+[0.561s] running develop
+[0.625s] running egg_info
+[0.625s] writing floor_cleaner.egg-info/PKG-INFO
+[0.625s] writing dependency_links to floor_cleaner.egg-info/dependency_links.txt
+[0.625s] writing entry points to floor_cleaner.egg-info/entry_points.txt
+[0.625s] writing requirements to floor_cleaner.egg-info/requires.txt
+[0.625s] writing top-level names to floor_cleaner.egg-info/top_level.txt
+[0.626s] reading manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+[0.627s] writing manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+[0.627s] running build_ext
+[0.628s] Creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor-cleaner.egg-link (link to .)
+[0.628s] Installing fake_lidar script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+[0.628s] Installing motor_bridge script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+[0.628s] 
+[0.628s] Installed /home/debarghya/floor_cleaner_ws/build/floor_cleaner
+[0.628s] running symlink_data
+[0.628s] creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds
+[0.629s] symbolically linking /home/debarghya/floor_cleaner_ws/build/floor_cleaner/worlds/floor.world -> /home/debarghya/floor_cleaner_ws/install/floor_cleaner/share/floor_cleaner/worlds
+[0.641s] Invoked command in '/home/debarghya/floor_cleaner_ws/build/floor_cleaner' returned '0': PYTHONPATH=/home/debarghya/floor_cleaner_ws/build/floor_cleaner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/debarghya/floor_cleaner_ws/build/floor_cleaner/build --no-deps symlink_data

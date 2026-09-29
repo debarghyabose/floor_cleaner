@@ -1,0 +1,1 @@
+/home/debarghya/floor_cleaner_ws/floor_cleaner_ws/src/floor_cleaner/scripts/cleaning_pattern_node.py

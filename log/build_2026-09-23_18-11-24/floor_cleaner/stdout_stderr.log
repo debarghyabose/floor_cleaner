@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing floor_cleaner.egg-info/PKG-INFO
+writing dependency_links to floor_cleaner.egg-info/dependency_links.txt
+writing entry points to floor_cleaner.egg-info/entry_points.txt
+writing requirements to floor_cleaner.egg-info/requires.txt
+writing top-level names to floor_cleaner.egg-info/top_level.txt
+reading manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+writing manifest file 'floor_cleaner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/python3.10/site-packages/floor-cleaner.egg-link (link to .)
+Installing fake_lidar script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+Installing motor_bridge script to /home/debarghya/floor_cleaner_ws/install/floor_cleaner/lib/floor_cleaner
+
+Installed /home/debarghya/floor_cleaner_ws/build/floor_cleaner
+running symlink_data

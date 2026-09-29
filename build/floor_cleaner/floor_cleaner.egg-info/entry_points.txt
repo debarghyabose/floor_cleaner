@@ -1,0 +1,4 @@
+[console_scripts]
+fake_lidar = floor_cleaner.fake_lidar:main
+motor_bridge = floor_cleaner.motor_bridge:main
+

@@ -1,0 +1,15 @@
+# Parameters for scripts/cleaning_pattern_node.py
+# The rectangle is given in the MAP frame. With the default spawn pose the
+# map frame equals the Gazebo world frame, so these numbers cover the HALL
+# of worlds/floor_cleaner_world.world (x -5..5, y -1.5..1.5, minus margins).
+cleaning_pattern_node:
+  ros__parameters:
+    frame_id: map
+    x_min: -4.3
+    x_max: 4.3
+    y_min: -0.9
+    y_max: 0.9
+    lane_spacing: 0.45      # distance between cleaning lanes (~ cleaning width)
+    start_left: true        # first lane goes from x_min to x_max
+    dry_run: false          # true = only publish/print the path, do not move
+    goal_timeout_sec: 120.0 # give up on a single waypoint after this long
